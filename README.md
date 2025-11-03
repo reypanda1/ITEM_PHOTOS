@@ -1,4 +1,4 @@
-# RAB_MAPS - Visualizador de Imágenes
+# ITEM_PHOTOS - Visualizador de Imágenes
 
 Recurso de FiveM basado en QBCore que muestra imágenes en el centro de la pantalla cuando un jugador usa items específicos del inventario.
 
@@ -16,14 +16,14 @@ Recurso de FiveM basado en QBCore que muestra imágenes en el centro de la panta
 
 ### Paso 1: Copiar el recurso
 
-1. Copia la carpeta `RAB_maps` a tu directorio de recursos:
+1. Copia la carpeta `ITEM_PHOTOS` a tu directorio de recursos:
    ```
-   resources/RAB_maps/
+   resources/ITEM_PHOTOS/
    ```
 
 2. Asegúrate de que la estructura de carpetas sea:
    ```
-   RAB_maps/
+   ITEM_PHOTOS/
    ├── fxmanifest.lua
    ├── config.lua
    ├── client/
@@ -44,7 +44,7 @@ Recurso de FiveM basado en QBCore que muestra imágenes en el centro de la panta
 Añade esta línea en tu `server.cfg`:
 
 ```cfg
-ensure RAB_maps
+ensure ITEM_PHOTOS
 ```
 
 ### Paso 3: Registrar el item en QBCore
@@ -74,7 +74,7 @@ El recurso está configurado para usar el item `map` por defecto. Si necesitas c
 
 ### Paso 5: Reiniciar el servidor
 
-1. Detén el servidor o usa `/refresh` y `/ensure RAB_maps` en la consola del servidor
+1. Detén el servidor o usa `/refresh` y `/ensure ITEM_PHOTOS` en la consola del servidor
 2. El recurso debería cargar correctamente
 
 ## ⚙️ Configuración Completa
@@ -202,7 +202,7 @@ Config.AutoCloseTimeout = 5000  -- Se cierra después de 5 segundos
 1. Verifica que la ruta de la imagen sea correcta en `Config.DefaultImage`
 2. Asegúrate de que el archivo existe en `html/img/`
 3. Revisa la consola F8 del cliente para errores de NUI
-4. Verifica que el recurso esté iniciado: `/ensure RAB_maps`
+4. Verifica que el recurso esté iniciado: `/ensure ITEM_PHOTOS`
 
 ### El item no funciona
 
@@ -215,7 +215,7 @@ Config.AutoCloseTimeout = 5000  -- Se cierra después de 5 segundos
 
 1. Verifica que puedes presionar ESC
 2. Si `Config.CloseOnClick = true`, verifica que puedes hacer click en la imagen
-3. Intenta reiniciar el recurso: `/refresh` y `/ensure RAB_maps`
+3. Intenta reiniciar el recurso: `/refresh` y `/ensure ITEM_PHOTOS`
 
 ### El timeout automático no funciona
 
