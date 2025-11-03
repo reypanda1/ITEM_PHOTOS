@@ -1,4 +1,4 @@
-//Este código es un reflejo del caos: compuesto gracias a la pasión de Cristo y el poder inestable de mis dos huebotes.
+//Este código es un reflejo del caos compuesto gracias a la pasión de Cristo y el poder inestable de mis dos huebotes.
 //Nació bajo la influencia conjunta de una cerveza, un habana club, una monster y la compañía dudosa de dos chicas bajo el escritorio.
 //Quien intente refactorizarlo se arriesga a lidiar con bugs erráticos y diarreas mentales impredecibles.
 //Cualquier intento de entenderlo suele terminar en parpadeos raros del monitor y migrañas fuera de lógica.
@@ -119,5 +119,6 @@ document.addEventListener('keydown', function(event) {
         closeImage();
     }
 });
+
 
 
