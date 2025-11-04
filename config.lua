@@ -1,10 +1,14 @@
 Config = {}
 
--- Puedes cambiarlo por el nombre que quieras usar en tu servidor
-Config.ItemName = "map"
-
--- Ruta de la imagen por defecto (relativa a html/)
-Config.DefaultImage = "img/mapa.png"
+-- ============================================
+-- SISTEMA DE MÚLTIPLES ITEMS (RECOMENDADO)
+-- ============================================
+-- Configura múltiples items, cada uno con su propia imagen
+Config.Items = {
+    ["map"] = "img/mapa.png",
+    ["photo"] = "img/foto.png",
+    ["document"] = "img/documento.png"
+}
 
 -- Si se permite cerrar haciendo click en la imagen
 Config.CloseOnClick = true
