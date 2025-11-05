@@ -1,4 +1,4 @@
-# ITEM_PHOTOS - Visualizador de Imágenes
+# ITEM PHOTOS - Visualizador de Imágenes
 
 Recurso de FiveM basado en QBCore que muestra imágenes en el centro de la pantalla cuando un jugador usa items específicos del inventario.
 
@@ -264,4 +264,5 @@ Config.AutoCloseTimeout = 0
 - **QBCore Framework** (versión compatible con `CreateUseableItem`)
 - **FiveM Server** actualizado
 - **fxmanifest** compatible (cerulean o superior)
+
 
