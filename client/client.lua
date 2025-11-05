@@ -38,7 +38,7 @@ function CloseImage()
     SetNuiFocus(false, false)
 end
 
-RegisterNetEvent('RAB_maps:showImage', function(imagePath)
+RegisterNetEvent('item_photos:showImage', function(imagePath)
     if QBCore then
         OpenImage(imagePath)
     end

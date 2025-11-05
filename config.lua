@@ -7,7 +7,7 @@ Config = {}
 Config.Items = {
     ["map"] = "img/mapa.png",
     ["photo"] = "img/foto.png",
-    ["document"] = "img/documento.png"
+    ["document"] = "img/documento.png",
 }
 
 -- Si se permite cerrar haciendo click en la imagen

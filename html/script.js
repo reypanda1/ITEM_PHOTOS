@@ -79,7 +79,7 @@ function closeImageOnClick() {
 }
 
 function notifyClose() {
-    const resourceName = GetParentResourceName ? GetParentResourceName() : 'RAB_maps';
+    const resourceName = GetParentResourceName ? GetParentResourceName() : 'item_photos';
     
     fetch(`https://${resourceName}/close`, {
         method: 'POST',
