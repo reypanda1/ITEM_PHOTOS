@@ -105,7 +105,7 @@ Config.Items = {
 - Formatos soportados: PNG, JPG, JPEG, WEBP, GIF, BMP, SVG
 - La imagen se ajustará automáticamente al tamaño de la pantalla
 - Los items deben existir en tu base de datos de QBCore
-- Funciona con items que tienen `useable = true` (automáticamente) y `useable = false` (usando exports o eventos)
+- Funciona con items que tienen `useable = true` (automáticamente) y `useable = false` (en algunos casos debes exports o eventos)
 
 ---
 
@@ -236,7 +236,7 @@ Config.AutoCloseTimeout = 0
 1. Verifica que el item existe en tu base de datos de QBCore
 2. Confirma que el nombre del item en `Config.Items` coincide exactamente con el nombre del item en la base de datos
 3. Si el item tiene `useable = true`, debería funcionar automáticamente
-4. Si el item tiene `useable = false`, usa el export o evento desde otro recurso (ver sección "Uso con items sin useable=true")
+4. Si el item tiene `useable = false`, usa el export o evento desde otro recurso
 5. Revisa los logs del servidor para errores
 
 ### La imagen no carga (formato no soportado)
@@ -264,5 +264,6 @@ Config.AutoCloseTimeout = 0
 - **QBCore Framework** (versión compatible con `CreateUseableItem`)
 - **FiveM Server** actualizado
 - **fxmanifest** compatible (cerulean o superior)
+
 
 
